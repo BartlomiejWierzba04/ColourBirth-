@@ -1,0 +1,7 @@
+How would the model be trained? 
+- This model could be trained using tagged data 
+- Supervised learning approach since the data is qualitative 
+
+e.g. the model won't be able to figure out the colour "jade green" if you tell it that it's close to "dark green" 
+
+The words used to describe colour are very unique - they can't be "figured out" - especially not by the limited neural network i'm building. 

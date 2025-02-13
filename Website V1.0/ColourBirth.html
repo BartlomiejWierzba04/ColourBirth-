@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+    <title>ColourBirth </title>
+</head>
+
+
+<body>
+	<div id="video-background"></div>
+	<div id="content">
+	
+	
+	<h1>Colour<span style="color: #9b4b9d; text-shadow: 2px 2px black">Birth</span></h1>
+		<p class= "text">Enter your birthday to generate your unique colour:</p>
+		<div id="inputBoxes">
+			<input type="date" id="birthdayInput">
+			<button class =	"button-50" role="button" id ="generateB" onclick=generateColor()>Generate</button><br>
+		</div>
+		<div class="color-display" id="colorDisplay">Your color will appear here.</div> 
+		
+		
+	</div>
+		<!---<iframe id="cosmos" src="https://www.cosmos.so/discover"></iframe> --->
+	
+	
+	
+<script src="BirthdayToColour.js"></script>
+<script src="video.js"></script> 
+</body>
+</html>
